@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28310259-C895-4003-8DA5-0DC978637876}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>project3_Amruta.My.MyApplication</StartupObject>
+    <RootNamespace>project3_Amruta</RootNamespace>
+    <AssemblyName>project3_Amruta</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>project3_Amruta.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>project3_Amruta.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="LogoQuestion6.Designer.vb">
+      <DependentUpon>LogoQuestion6.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoQuestion6.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoQuestion5.Designer.vb">
+      <DependentUpon>LogoQuestion5.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoQuestion5.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoQuestion4.Designer.vb">
+      <DependentUpon>LogoQuestion4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoQuestion4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoQuestion3.Designer.vb">
+      <DependentUpon>LogoQuestion3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoQuestion3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoQuestion2.Designer.vb">
+      <DependentUpon>LogoQuestion2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoQuestion2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="output.Designer.vb">
+      <DependentUpon>output.vb</DependentUpon>
+    </Compile>
+    <Compile Include="output.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="StartForm.Designer.vb">
+      <DependentUpon>StartForm.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogoQuestion1.Designer.vb">
+      <DependentUpon>LogoQuestion1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogoQuestion1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="LogoQuestion6.resx">
+      <DependentUpon>LogoQuestion6.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoQuestion5.resx">
+      <DependentUpon>LogoQuestion5.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoQuestion4.resx">
+      <DependentUpon>LogoQuestion4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoQuestion3.resx">
+      <DependentUpon>LogoQuestion3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoQuestion2.resx">
+      <DependentUpon>LogoQuestion2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogoQuestion1.resx">
+      <DependentUpon>LogoQuestion1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="output.resx">
+      <DependentUpon>output.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StartForm.resx">
+      <DependentUpon>StartForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MercedesLogo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Amazon_logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nike-swoosh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unicef.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Warner_Bros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tommy hilfiger 6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yahama.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\timberland.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fireFox.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DominosPizza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mcdonals.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pizzahut.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Starbucks.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameZonel.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gameOver.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\start.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Easy_Button.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hard_Button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mer.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

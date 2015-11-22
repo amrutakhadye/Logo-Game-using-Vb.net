@@ -1,0 +1,100 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+project3_Amruta
+</name>
+</assembly>
+<members>
+<member name="P:project3_Amruta.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.Amazon_logo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.DominosPizza">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.Easy_Button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.fireFox">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.gameOver">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.gameZonel">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.Hard_Button">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.mcdonals">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.mer">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.MercedesLogo">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.nike_swoosh">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.pizzahut">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.Starbucks">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.start">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.timberland">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.tommy_hilfiger_6">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.unicef">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.Warner_Bros">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:project3_Amruta.My.Resources.Resources.yahama">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:project3_Amruta.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>
